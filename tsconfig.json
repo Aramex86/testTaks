@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@Shared/*": ["./src/Shared/*"],
+      "@Atom/*": ["./src/Shared/Atom/*"],
+      "@Molecule/*": ["./src/Shared/Molecule/*"]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.tableContainer {
+  table-layout: fixed;
+  width: 97%;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin: 0 auto;
+
+  margin-top: 25px;
+}

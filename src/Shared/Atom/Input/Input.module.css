@@ -1,0 +1,10 @@
+.input {
+  width: inherit;
+  padding: 10px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.input::placeholder {
+  color: var(--placeholder-color);
+}

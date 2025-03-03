@@ -1,0 +1,15 @@
+.online {
+  color: var(--primary-color);
+}
+
+.paused {
+  color: var(--orange-color);
+}
+
+.stopped {
+  color: var(--red-color);
+}
+
+.draft {
+  color: var(--secondary-color);
+}

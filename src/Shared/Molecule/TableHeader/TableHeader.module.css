@@ -1,0 +1,14 @@
+.tableHeaderCell {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.tableHeaderCell > p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.arrowDown {
+  transform: rotate(180deg);
+}

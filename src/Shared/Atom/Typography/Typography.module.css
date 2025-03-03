@@ -1,0 +1,25 @@
+.title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body {
+  font-size: 14px;
+}
+
+.tableHeader {
+  color: var(--table-header-color);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.noResults {
+  font-size: 18px;
+  font-weight: 500;
+}

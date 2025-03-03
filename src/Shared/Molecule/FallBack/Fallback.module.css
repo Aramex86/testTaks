@@ -1,0 +1,13 @@
+.container {
+  background: var(--primary-white);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.container img {
+  width: 40%;
+  backdrop-filter: blur(10px);
+}

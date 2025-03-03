@@ -1,0 +1,37 @@
+.primary {
+  background-color: var(--primary-color);
+  color: var(--primary-white);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 95px;
+  height: 30px;
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-white);
+  border-radius: 8px;
+  cursor: pointer;
+  width: 95px;
+  height: 30px;
+}
+
+.primary:hover,
+.secondary:hover {
+  opacity: 0.8;
+}
+
+.simple {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 19px;
+  cursor: pointer;
+}
